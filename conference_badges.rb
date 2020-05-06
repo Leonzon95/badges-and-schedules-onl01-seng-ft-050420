@@ -12,4 +12,7 @@ def batch_badge_creator(names)
   badges
 end
 
-def assign_rooms
+def assign_rooms(names)
+  assigned = []
+  names.each_with_index { |item, index|
+    
