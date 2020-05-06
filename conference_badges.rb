@@ -21,7 +21,7 @@ def assign_rooms(names)
 end
 
 def printer(attendees)
-  attendees.each do |x|
-    puts x
+  attendees.each do |name|
+    puts 
   end
 end
